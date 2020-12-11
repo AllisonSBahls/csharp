@@ -9,6 +9,8 @@ namespace WorkingFile
             /*FileAndFileInfo file = new FileAndFileInfo();
             file.FilesFirst();
             */
+            FileStreamAndStreamReader fssr = new FileStreamAndStreamReader();
+            fssr.FileStream();
         }
     }
 }
