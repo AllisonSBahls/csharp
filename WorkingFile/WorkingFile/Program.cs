@@ -11,17 +11,22 @@ namespace WorkingFile
          * o objetivo de manter tudo em um mesmo projeto*/
         static void Main(string[] args)
         {
-           
+
             /*FileAndFileInfo file = new FileAndFileInfo();
             file.FilesFirst();
             */
-           
+
             /*FileStreamAndStreamReader fssr = new FileStreamAndStreamReader();
             fssr.FileStream();*/
 
-            BlockUsing bu = new BlockUsing();
-            bu.Using();
+            //BlockUsing bu = new BlockUsing();
+            //bu.Using();
 
+            //Writer streamWriter = new Writer();
+            //  streamWriter.WriterStream();
+
+            WorkDirectory wd = new WorkDirectory();
+            wd.WorkingDirectory();
         }
     }
 }
